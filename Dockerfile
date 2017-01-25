@@ -1,6 +1,6 @@
 FROM golang:1.7.4-wheezy
 
-ADD package.zip.enc entrypoint.sh /home
+ADD package.zip.enc entrypoint.sh /home/
 
 RUN apt-get update -y && \
 	apt-get install unzip -y && \
