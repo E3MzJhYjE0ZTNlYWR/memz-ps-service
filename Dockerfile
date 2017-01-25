@@ -8,4 +8,4 @@ RUN apt-get update -y && \
 	go get gopkg.in/mgo.v2 gopkg.in/mgo.v2/bson github.com/Sirupsen/logrus github.com/buaazp/fasthttprouter \
 		github.com/valyala/fasthttp github.com/satori/go.uuid
 
-ENTRYPOINT ["/go/bin/entrypoint.sh"]
+ENTRYPOINT ["/home/entrypoint.sh"]
